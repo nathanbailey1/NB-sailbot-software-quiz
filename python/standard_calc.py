@@ -15,7 +15,8 @@ def bound_to_180(angle):
         return angle
     elif (angle - 360 <= angle + 360):
         return bound_to_180(angle - 360)
-    else: return bound_to_180(angle + 360)
+    else: 
+        return bound_to_180(angle + 360)
 
 
 def is_angle_between(first_angle, middle_angle, second_angle):
@@ -35,4 +36,5 @@ def is_angle_between(first_angle, middle_angle, second_angle):
     """
     if (first_angle <= middle_angle) and (middle_angle <= second_angle):
         return True
-    else: return False
+    else: 
+        return False

@@ -13,7 +13,7 @@ def bound_to_180(angle):
     """
     if (is_angle_between(-180, angle, 180)):
         return angle
-    elif (angle - 360 <= angle + 360):
+    elif (abs(angle - 360) <= abs(angle + 360)):
         return bound_to_180(angle - 360)
     else:
         return bound_to_180(angle + 360)

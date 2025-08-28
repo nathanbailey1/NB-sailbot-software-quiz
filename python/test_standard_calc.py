@@ -19,6 +19,6 @@ def test_bound_basic1():
 def test_between_basic1():
     assert is_angle_between(0, 1, 2)
     assert is_angle_between(0, -1, 2)
-    assert is_angle_between (0, 3, 2)
-    assert is_angle_between (0, 2, 2)
-    assert is_angle_between (0, 0, 2)
+    assert is_angle_between(0, 3, 2)
+    assert is_angle_between(0, 2, 2)
+    assert is_angle_between(0, 0, 2)
